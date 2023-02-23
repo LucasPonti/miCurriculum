@@ -1,3 +1,4 @@
+
 function mostrar(texto) {
    var elemento = document.getElementById("TextoOculto");
    elemento.style.color = "white";
@@ -8,6 +9,18 @@ function mostrar(texto) {
    if (texto == "cursos") {elemento.innerHTML= "<p id='titulo'>"+ texto + "</p>" + cursos}
    if (texto == "experiencia") {elemento.innerHTML= "<p id='titulo'>"+ texto + "</p>" + experiencia}
    
+}
+
+function scrolltotop(){
+   window.scrollTo({top:0, behavior: 'smooth'})
+}
+
+function ocultar(obj){
+   document.getElementById(obj).style.display = 'none';
+}
+
+function expandir(obj){
+   document.getElementById(obj).style.display = 'block';
 }
 
 

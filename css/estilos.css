@@ -1,5 +1,21 @@
 #ContenedorCabecera {
     display: flex;
+    height: 330px;
+}
+
+#ContenedorImagen a{
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+}
+
+#ContenedorImagen a:hover {
+    background-color: black;
+    color: beige;
 }
 
 #ContenedorImagen {
@@ -15,8 +31,10 @@
     margin: 30px;
 }
 
+
 #ContenedorNombre {
     width: 80%;
+    font-family: 'Righteous', cursive;
     background-image: url("../images/fondogris.jpg");
 }
 
@@ -52,7 +70,7 @@
 }
 
 #TextoOculto {
-    height: 400px;
+    height: 600px;
     background-image: url("../images/fondotxt.jpg");
     background-size: 90%;
     text-align: center;
@@ -76,6 +94,7 @@
     background-color: rgb(228, 228, 228);
     text-align: center;
     padding: 100px 80px;
+    font-family: 'Lobster', cursive;
 }
 
 #NotaPresentacion p {
@@ -91,3 +110,18 @@
     font-size: 20px;
 }
 
+#scrolltotop {
+    width: 20px;
+    height: 20px;
+}
+
+#MostrarOcultar {
+    display: flex;
+    justify-content: center;
+}
+
+#MostrarOcultar button{
+    width: 700px;
+    height: 50px;
+    font-size: 1em;
+}
